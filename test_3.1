@@ -1,0 +1,25 @@
+//Schreibe eine keyPressed-Funktion, die überprüft, welche Taste gedrückt wurde und eine dazugehörige Konsolenausgabe ausgibt. Die Funktion soll ...
+
+//... wenn die Taste 'Pfeil nach oben' gedrückt wurde in der Konsole "hoch" ausgeben
+//... wenn die Taste 'Pfeil nach links' gedrückt wurde in der Konsole "links" ausgeben
+//... wenn die Taste 'Pfeil nach unten' gedrückt wurde in der Konsole "runter" ausgeben
+//... wenn die Taste 'Pfeil nach rechts' gedrückt wurde in der Konsole "rechts" ausgeben
+//... wenn wenn keine der oben genannten Tasten gedrückt wird "Keine Pfeiltaste" in der Konsole ausgeben.
+//Hinweis: Verwende die Systemvariable keyCode (mögliche Werte: UP, DOWN, RIGHT, LEFT), um zu überprüfen, welche Taste gedrückt wurde.
+
+void keyPressed () {
+  if (keyCode == UP) {
+    println("Hoch");
+  }
+  if (keyCode == DOWN) {
+    println("Runter");
+  }
+  if (keyCode == LEFT) {
+    println("Links");
+  }
+  if (keyCode == RIGHT) {
+    println("Rechts");
+  } else {
+    println("Keine Pfeiltaste");
+  }
+}
